@@ -19,14 +19,4 @@ function update_cliente($id,$v)
 	}
 
 }
-
-// function get_cliente($id)
-// {
-// 	$link = mysqli_connect('localhost','root', '','crud');
-// 	$q = "SELECT * FROM clientes WHERE id = $id";
-// 	$result = mysqli_query($link,$q);
-// 	$linha = mysqli_fetch_assoc($result);
-// 	return $linha;
-// }
-
 ?>
